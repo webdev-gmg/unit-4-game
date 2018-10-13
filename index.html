@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	 crossorigin="anonymous">
+
+</head>
+
+<body background="https://www.freegreatpicture.com/files/147/8964-background-color.jpg">
+	<div class="row">
+		<div class="col-md-3"></div>
+		<div class="col-md-5 pt-5">
+			<div class="header">
+				<h1 class="text-info text-center shadow p-3 mb-5 bg-white rounded">The Crystal Collector</h1>
+
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div class="row pt-4">
+		<div class="col-md-4"></div>
+		<div class="card" style="width: 25rem;">
+			<div class="card-body">
+				<h3 class="card-title text-primary shadow-sm p-3 mb-5 bg-white rounded">The Number to get: <span id="randomNumber"
+					 class="text-warning"></span></h3>
+
+				<p class="card-text">
+					<h4 class="text-success text-center"> Your Wins:
+						<span id="numberWins"></span></h4>
+				</p>
+				<p class="card-text">
+					<h4 class="text-danger text-center"> Your Losses:
+						<span id="numberLosses"></span></h4>
+				</p>
+
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+	<div class="row">
+		<div class="col-md-4"></div>
+
+		<div class="col-md-6 ">
+
+			<div class="gems">
+				<img src="assets/images/blue.png" id="one" alt="Blue Gem">
+				<img src="assets/images/green.png" id="two" alt="Green Gem">
+				<img src="assets/images/red.png" id="three" alt="Red Gem">
+				<img src="assets/images/yellow.png" id="four" alt="Yellow Gem">
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-4"></div>
+		<div class="userTotal">
+			<h2 class="text-info">Your total score is:
+				<span id="finalTotal" class="alert-success"></span></h2>
+		</div>
+	</div>
+
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	 crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
